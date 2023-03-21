@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OO's profile</title>
+        <script defer src="index.js"></script>
+        <link href="style.css" rel="stylesheet" />
+        <link rel="icon" href="./favicon.ico" />
+        <script
+            src="https://kit.fontawesome.com/4e86c6de6f.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body
+        oncontextmenu="return false"
+        ondragstart="return false"
+        onselectstart="return false"
+    >
+        <article>
+            <header>
+                <nav id="nav">
+                    <img id="nav_img" src="./img/img.png" />
+                    <ul class="nav_links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about_me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#link">Link</a></li>
+                    </ul>
+                    <a class="mobile_nav_icon" onclick="mobile_nav()">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </a>
+                </nav>
+                <div id="home"></div>
+                <img
+                    class="hidden img"
+                    src="./img/img.png"
+                    onclick="easteregg()"
+                />
+                <div id="site_top_name" class="hidden">
+                    <span>oo</span>
+                </div>  
+                <div id="hi" class="hidden">
+                    <h1>제 프로필 사이트에 오신것을 환영합니다.</h1>
+                </div>
+            </header>
+            <div id="about_css" class="hidden">
+                <div id="about_me"></div>
+                <h1>안녕하세요 oo라고 합니다.</h1>
+                <h1>저는 게임, 컴퓨터 좋아하고요 </h1>
+                <h1>컴퓨터에 관심이 많습니다</h1>
+                <h1>그냥 대충 게임 번역일이나 코딩하고 있습니다</h1>
+            </div>
+            <div id="skill_css">
+                <div id="skills"></div>
+                <h1 class="hidden">제가 현재 쓸 수 있는 코딩 언어입니다</h1>
+                <div id="skill_img_css" class="hiddenImg">
+                    <div class="skillHidden skillBox two">
+                        <img class="skillImg" src="./img/java.png" />
+                    </div>
+                    <div class="skillHidden skillBox seven">
+                        <img class="skillImg" src="./img/js.png" />
+                    </div>
+                    <div class="skillHidden skillBox three">
+                        <img class="skillImg" src="./img/C.png" />
+                    </div>
+                    <div class="skillHidden skillBox three">
+                        <img class="skillImg" src="./img/ts.png" />
+                    </div>
+                </div>
+                <h1 class="hidden" id="trans">현재 제가 번역하고 있는 프로젝트에요</h1>
+                <div id="skill_img_css" class="hiddenImg">
+                    <div class="skillHidden skillBox two">
+                        <img class="skillImg" src="./img/hypixel.png" />
+                    </div>
+                    <div class="skillHidden skillBox seven">
+                        <img class="skillImg" src="./img/lunar.png" />
+                    </div>
+                    <div class="skillHidden skillBox three">
+                        <img class="skillImg" src="./img/minecraft.png" />
+                    </div>
+                    <div class="skillHidden skillBox three">
+                        <img class="skillImg" src="./img/statsify.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="link_css" class="hidden">
+                <h1>소셜 링크에요</h1>
+                <h3>(마우스 커서를 위에 올리거나 클릭해보세요)</h3>
+                <div id="link_icon_css" class="hidden">
+                    <div class="link">
+                        <span id="hover" class="hover_">Dumb#0009</span>
+                        <i class="fa-brands fa-discord" onclick="discordLink()"></i>
+                    </div>
+                </div>
+                <div id="link"></div>
+            </div>
+
+            <footer>
+                <p id="copyright">
+                    &#169; Copyright 2023 noobnuby. All Rights Reserved.
+                </p>
+            </footer>
+        </article>
+    </body>
+</html>
