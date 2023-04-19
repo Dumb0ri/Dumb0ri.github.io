@@ -15,7 +15,7 @@ const hiddenelements = document.querySelectorAll(".skillHidden");
 hiddenelements.forEach((el) => observer.observe(el));
 
 function easteregg() {
-    alert("🎉와!!");
+    alert("마지막 수정 4.20 - 인생에서 원하는 것을 엇기 위한 첫번째 단계는 내가 무엇을 원하는지 결정하는 것이다");
 }
 function discordLink() {
     var discord = "https://discord.com/users/958582255159214132";
