@@ -15,7 +15,7 @@ const hiddenelements = document.querySelectorAll(".skillHidden");
 hiddenelements.forEach((el) => observer.observe(el));
 
 function easteregg() {
-    alert("🎉축하드립니다 당신은 이스터에그를 발견하셨습니다!!");
+    alert("🎉와!!");
 }
 function discordLink() {
     var discord = "https://discord.com/users/958582255159214132";
