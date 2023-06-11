@@ -15,7 +15,7 @@ const hiddenelements = document.querySelectorAll(".skillHidden");
 hiddenelements.forEach((el) => observer.observe(el));
 
 function easteregg() {
-    alert("마지막 수정 5.24 - 언제나 현재에 집중할수 있다면 행복할것이다.");
+    alert("마지막 수정 6.11 - 언제나 현재에 집중할수 있다면 행복할것이다.");
 }
 function discordLink() {
     var discord = "https://discord.com/users/958582255159214132";
