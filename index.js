@@ -15,7 +15,7 @@ const hiddenelements = document.querySelectorAll(".skillHidden");
 hiddenelements.forEach((el) => observer.observe(el));
 
 function easteregg() {
-    alert("Last edited 9/9-To err is human; to forgive, divine.");
+    alert("Last edited 10/1-Love is infectious and greatest healing energy.");
 }
 function discordLink() {
     var discord = "https://discord.com/users/958582255159214132";
