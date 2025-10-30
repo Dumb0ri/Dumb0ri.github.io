@@ -15,7 +15,7 @@ const hiddenelements = document.querySelectorAll(".skillHidden");
 hiddenelements.forEach((el) => observer.observe(el));
 
 function easteregg() {
-    alert("Last edited 10/3-The way to get started is to quit talking and begin doing.");
+    alert("Last edited 2025/10/30 - The only impossible journey is the one you never begin.");
 }
 function discordLink() {
     var discord = "https://discord.com/users/958582255159214132";
@@ -27,3 +27,4 @@ mobile_nav.onclick = function() {
     navBar = document.querySelector(".nav_links");
     navBar.classList.toggle("mobile")
 }
+
